@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(101, 168, 162);
+}
+img{
+    max-width: 96px;
+}
+#pokemonok{
+    padding:10px;
+    gap:10px;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr 4fr 4fr 4fr;
+}
+#random{
+    text-align: center;
+    border: 3px solid black;
+    margin:10px;
+    border-radius: 10px;
+    background-color: rgb(16, 80, 72);
+}
+button{
+    background: darkgreen;
+    border-radius: 10px;
+    border-color: white;
+    color:aliceblue;
+}
+.pokemon{
+    text-align: center;
+    color:aliceblue;
+    background: rgb(32, 77, 72);
+    border: 1px solid black;
+    padding: 3px 10px;
+    border-radius: 10px;
+    list-style-type: none;
+}
